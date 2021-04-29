@@ -50,13 +50,18 @@ namespace Presentation1_Task
             Console.WriteLine("Enter two int");
             int firstIntNumber = Convert.ToInt32(Console.ReadLine());
             int secondIntNumber = Convert.ToInt32(Console.ReadLine());
+           
+            bool isBothPosotive = (firstIntNumber > 0 & secondIntNumber > 0); //the same as in if else
+           Console.WriteLine(isBothPosotive);
+
+            //can make this condition like this
             if (firstIntNumber > 0 & secondIntNumber > 0)
             {
                 Console.WriteLine("they are both positive");
             }
             else
             {
-                Console.WriteLine("they are both negative");
+                Console.WriteLine("one of them are negative");
             }
 
             
