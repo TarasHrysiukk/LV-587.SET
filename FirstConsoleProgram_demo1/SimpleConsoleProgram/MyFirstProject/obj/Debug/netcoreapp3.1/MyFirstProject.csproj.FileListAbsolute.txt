@@ -1,0 +1,13 @@
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.exe
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.deps.json
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.runtimeconfig.json
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.runtimeconfig.dev.json
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.dll
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\bin\Debug\netcoreapp3.1\MyFirstProject.pdb
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.csprojAssemblyReference.cache
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.AssemblyInfoInputs.cache
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.AssemblyInfo.cs
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.csproj.CoreCompileInputs.cache
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.dll
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.pdb
+D:\Projects_C_sharp\First\MyFirstProject\MyFirstProject\obj\Debug\netcoreapp3.1\MyFirstProject.genruntimeconfig.cache

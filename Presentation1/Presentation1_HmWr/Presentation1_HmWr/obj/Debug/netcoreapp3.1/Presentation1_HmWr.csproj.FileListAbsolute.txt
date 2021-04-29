@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.AssemblyInfo.cs
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.exe
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.deps.json
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.runtimeconfig.json
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.runtimeconfig.dev.json
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.dll
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\bin\Debug\netcoreapp3.1\Presentation1_HmWr.pdb
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.dll
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.pdb
+D:\Projects_C#\Presentation1\Presentation1_HmWr\Presentation1_HmWr\obj\Debug\netcoreapp3.1\Presentation1_HmWr.genruntimeconfig.cache
