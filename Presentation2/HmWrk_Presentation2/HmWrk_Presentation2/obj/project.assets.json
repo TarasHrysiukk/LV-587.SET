@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects_C#\\FirstConsoleProgram_demo1\\SimpleConsoleProgram\\MyFirstProject\\MyFirstProject.csproj",
-      "projectName": "MyFirstProject",
-      "projectPath": "D:\\Projects_C#\\FirstConsoleProgram_demo1\\SimpleConsoleProgram\\MyFirstProject\\MyFirstProject.csproj",
+      "projectUniqueName": "D:\\Projects_C#\\Presentation2\\HmWrk_Presentation2\\HmWrk_Presentation2\\HmWrk_Presentation2.csproj",
+      "projectName": "HmWrk_Presentation2",
+      "projectPath": "D:\\Projects_C#\\Presentation2\\HmWrk_Presentation2\\HmWrk_Presentation2\\HmWrk_Presentation2.csproj",
       "packagesPath": "C:\\Users\\tgrus\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects_C#\\FirstConsoleProgram_demo1\\SimpleConsoleProgram\\MyFirstProject\\obj\\",
+      "outputPath": "D:\\Projects_C#\\Presentation2\\HmWrk_Presentation2\\HmWrk_Presentation2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tgrus\\AppData\\Roaming\\NuGet\\NuGet.Config",
