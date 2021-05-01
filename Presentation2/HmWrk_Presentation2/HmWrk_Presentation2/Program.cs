@@ -5,7 +5,7 @@ namespace HmWrk_Presentation2
     class Program
     {
         static void Main(string[] args)
-        {/*
+        {
             //HmWrk2.a
             //read 3 float numbers and check: are they all belong to the range [-5,5].
             Console.WriteLine("Enter number");
@@ -31,11 +31,11 @@ namespace HmWrk_Presentation2
             int max = numberTaskB1>numberTaskB2?numberTaskB1:numberTaskB2;
             max = max > numberTaskB3 ? max : numberTaskB3;
             Console.WriteLine($"Max - {max}");
-
+            
             //HmWrk2.c
             //read number of HTTP Error (400, 401,402, ...)
             //and write the name of this error (Declare enum HTTPError)
-            HTTPerror httpError;
+            HTTPerror httpError = new HTTPerror();
             readHttpError(HTTPerror.first);
             readHttpError(HTTPerror.second);
             readHttpError(HTTPerror.third);
@@ -48,11 +48,11 @@ namespace HmWrk_Presentation2
                 switch (httpError)
                 {
                     case HTTPerror.first :
-                        Console.WriteLine("Error #400.(with Convert.ToInt32) enum - " + Convert.ToInt32(HTTPerror.first));
+                        Console.WriteLine("Error #400. enum - " + HTTPerror.first);
                         break;
 
                     case HTTPerror.second:
-                        Console.WriteLine("Error #401. (with Convert.ToInt32) enum - " + Convert.ToInt32(HTTPerror.second));
+                        Console.WriteLine("Error #401. enum - " + HTTPerror.second);
                         break;
 
                     case HTTPerror.third:
@@ -68,18 +68,17 @@ namespace HmWrk_Presentation2
                         break;
                 }
             }
-            */
+            
 
             //HmWrk2.d
             //declare struct Dog with fields Name, Mark, Age.
             //Declare variable myDog of Dog type and read values for it.
             //Output myDos into console. (Declare method ToString in struct)
-            Dog myDog;
+            Dog myDog = new Dog();
             myDog.name = "Boolka";
             myDog.mark = "Grove street";
             myDog.age = 13;
-            myDog.info();
-
+            Console.WriteLine(myDog);
         }
 
         //HmWrk2.c enum
@@ -99,9 +98,9 @@ namespace HmWrk_Presentation2
             public string mark;
             public int age;
 
-            public void info()
+            public override string ToString()
             {
-                Console.WriteLine($"Name - {name},\nMark - {mark},\nAge - {age}");
+                return ($"Name - {name},\nMark - {mark},\nAge - {age}");
             }
         }
 

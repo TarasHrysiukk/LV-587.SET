@@ -38,7 +38,7 @@ namespace Task_Presentation2
             }
             Console.WriteLine("Sum of first 2 didgits after the point = " + getSum(afterPointDigits));
             
-
+            
             //Task2.3
             //Enter integer number h, representing the time of day (hour).
             //Depending on the time of day, print greetings (
@@ -67,21 +67,22 @@ namespace Task_Presentation2
             TestCaseStatus test1Status = TestCaseStatus.Pass;
             Console.WriteLine($"test1Status - {test1Status}");
             
-
+            
 
             //Task2.5
             //Determine RGB structure that represents the color with fields red, green, blue (type byte).
             //Identify two variables of this type and enter their fields for white and black colors
-            RGB black;
+            RGB black =new RGB();
             black.red = 0;
             black.green = 0;
             black.blue = 0;
             black.info("black");
 
-            black.blue = 255;
-            black.green = 255;
-            black.red = 255;
-            black.info("white");
+            RGB white = new RGB();
+            white.blue = 255;
+            white.green = 255;
+            white.red = 255;
+            white.info("white");
 
         }
         //Task2.4
