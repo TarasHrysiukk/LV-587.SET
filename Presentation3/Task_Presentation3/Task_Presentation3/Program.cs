@@ -7,7 +7,7 @@ namespace Task_Presentation3
     {
         private string nameOfDrink;
         static void Main(string[] args)
-        {/*
+        {
             //Task3.1
             //Enter a and b are two integers. Calculate how many integers
             //in the range [a..b] are divided by 3 without remainder.
@@ -112,7 +112,7 @@ namespace Task_Presentation3
                 }
             }
 
-            */
+            
             //Task3.5
             //Check whether the entered year is a leap.
 
@@ -135,7 +135,49 @@ namespace Task_Presentation3
             {
                 Console.WriteLine("This year is not a leap");
             }
+            
 
+            //Task3.6
+            //Find the sum of digits of the entered integer number
+            Console.WriteLine("Enter big number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Sum of Digits = {getSum(number)}");
+           
+            int getSum (int number)
+            {
+                int sumDigits = 0;
+                while (number != 0)
+                {
+                    sumDigits = sumDigits + number % 10;
+                    number = number / 10;
+                }
+                return sumDigits;
+            }
+
+            //Task3.6
+            //Check whether the entered integer number contains only odd numbers
+            Console.WriteLine("Enter big number: ");
+            int numberOdd = Convert.ToInt32(Console.ReadLine());
+
+            while (numberOdd != 0)
+            {
+                int chekOdd = numberOdd % 10;
+                numberOdd = numberOdd / 10;
+                if (chekOdd % 2 == 1)
+                {
+                   
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("Number contai not only odd number");
+                    break;
+                }
+            }
+            if (numberOdd == 0)
+            {
+                Console.WriteLine("Only Odd");
+            }
         }
     }
 }
