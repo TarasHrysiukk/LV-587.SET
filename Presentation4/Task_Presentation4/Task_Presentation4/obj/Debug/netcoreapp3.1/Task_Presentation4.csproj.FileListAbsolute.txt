@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.exe
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.deps.json
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.runtimeconfig.json
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.runtimeconfig.dev.json
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.dll
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\bin\Debug\netcoreapp3.1\Task_Presentation4.pdb
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.AssemblyInfo.cs
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.dll
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.pdb
+D:\Projects_C#\Presentation4\Task_Presentation4\Task_Presentation4\obj\Debug\netcoreapp3.1\Task_Presentation4.genruntimeconfig.cache
