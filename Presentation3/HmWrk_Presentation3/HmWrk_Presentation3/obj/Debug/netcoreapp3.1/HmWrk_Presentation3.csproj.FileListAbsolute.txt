@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.exe
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.deps.json
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.runtimeconfig.json
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.runtimeconfig.dev.json
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.dll
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\bin\Debug\netcoreapp3.1\HmWrk_Presentation3.pdb
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.AssemblyInfo.cs
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.dll
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.pdb
+D:\Projects_C#\Presentation3\HmWrk_Presentation3\HmWrk_Presentation3\obj\Debug\netcoreapp3.1\HmWrk_Presentation3.genruntimeconfig.cache
