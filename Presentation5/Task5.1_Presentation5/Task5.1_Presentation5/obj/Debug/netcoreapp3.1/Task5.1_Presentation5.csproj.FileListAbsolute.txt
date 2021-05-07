@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.exe
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.deps.json
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.runtimeconfig.json
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.runtimeconfig.dev.json
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.dll
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\bin\Debug\netcoreapp3.1\Task5.1_Presentation5.pdb
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.AssemblyInfo.cs
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.dll
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.pdb
+D:\Projects_C#\Presentation5\Task5.1_Presentation5\Task5.1_Presentation5\obj\Debug\netcoreapp3.1\Task5.1_Presentation5.genruntimeconfig.cache

@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-/// <summary>
-/// Print () - to output the machine data to the console ????
-/// Overload the operator == for the class Car (cars - equal if the name and price are equal) ????
 
-/// </summary>
 namespace Task_Presentation4
 {
     class Program
@@ -57,13 +53,13 @@ namespace Task_Presentation4
             {
                 case "yes":
                     var carWichYouChange = cars.Find(c => c.CarPrice > 0);
-                    carWichYouChange.CarPrice = 0.9;        //????????????????чи правльно так міняти ціну. 0,9 бо знижка 10%
+                    carWichYouChange.changePrice(10.0);        //????????????????whether to change the price correctly so. 0.9 because 10% discount
                     break;
 
                 case "no":
                     break;
             }
-            //вивід на екран ліста
+            //print list
             foreach (Car aCar in cars)
             {
                 Console.WriteLine(aCar);
@@ -104,8 +100,15 @@ namespace Task_Presentation4
 
                 set
                 {
-                    carPrice =carPrice * value;         //?????????????????
+                    carPrice = carPrice * value;         
                 }
+            }
+
+            public double changePrice(double x)
+            {
+                
+                carPrice = carPrice * (1 - x / 100);   
+                return carPrice;
             }
 
             public string CarName
@@ -147,6 +150,16 @@ namespace Task_Presentation4
             {
                 return "Car Name: " + carName+ "   Car Color: " + carColor + "   Car Price: " +carPrice +
                     "   Company Name: "+CompanyName;
+            }
+
+
+            public static bool operator == (Car cars1, Car cars2)
+            {
+                return (cars1.carName == cars2.carName);
+            }
+            public static bool operator !=(Car cars1, Car cars2)
+            {
+                return (cars1.carName != cars2.carName);
             }
         }
     }

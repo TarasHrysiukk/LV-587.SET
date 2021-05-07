@@ -45,11 +45,8 @@ namespace HmWrk_Presentation4
                     {
                         Console.WriteLine($"{aPersone.Name}  AND person  {aPerson.Name}    have the same name"); 
                     }
-
                 }
-
             }
-
         }
         
         public class Person
