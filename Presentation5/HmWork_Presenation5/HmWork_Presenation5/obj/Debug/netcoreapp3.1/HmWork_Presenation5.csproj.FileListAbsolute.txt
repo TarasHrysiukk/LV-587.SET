@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.exe
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.deps.json
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.runtimeconfig.json
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.runtimeconfig.dev.json
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.dll
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\bin\Debug\netcoreapp3.1\HmWork_Presenation5.pdb
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.AssemblyInfo.cs
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.dll
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.pdb
+D:\Projects_C#\Presentation5\HmWork_Presenation5\HmWork_Presenation5\obj\Debug\netcoreapp3.1\HmWork_Presenation5.genruntimeconfig.cache
