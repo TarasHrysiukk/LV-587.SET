@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.exe
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.deps.json
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.runtimeconfig.json
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.runtimeconfig.dev.json
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.dll
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\bin\Debug\netcoreapp3.1\Task_Presentatin7.pdb
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.AssemblyInfo.cs
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.dll
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.pdb
+D:\Projects_C#\Presentation7\Task_Presentatin7\Task_Presentatin7\obj\Debug\netcoreapp3.1\Task_Presentatin7.genruntimeconfig.cache
