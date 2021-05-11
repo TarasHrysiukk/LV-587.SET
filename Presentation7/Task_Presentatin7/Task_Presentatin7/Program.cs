@@ -17,12 +17,13 @@ namespace Task_Presentatin7
             {
 
                 StreamReader reader1 = new StreamReader(file1);
-
+                var test = reader1.ReadToEnd();
+                Console.WriteLine(test);
                 writeInside(file2);
                 
                 void writeInside(string file)
                 {
-                    File.WriteAllText(file, reader1.ReadToEnd());
+                    File.WriteAllText(file2, test);
                     
                 }
                 Console.WriteLine(reader1.ReadToEnd());

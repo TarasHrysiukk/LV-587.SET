@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/mnfXX7Euh+kK31f0D6ZJCRafUDYg+q/tTGCu4AFQuilMp3YSx1QKftn/sUz62ttYLu3wQ/JMBgQRw50e+rAQQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects_C#\\Presentation7\\HmWrk_Presentation7\\HmWrk_Presentation7\\HmWrk_Presentation7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tgrus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tgrus\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\tgrus\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\tgrus\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
