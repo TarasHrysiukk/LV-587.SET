@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.exe
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.deps.json
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.runtimeconfig.json
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.runtimeconfig.dev.json
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.dll
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\bin\Debug\netcoreapp3.1\Task_Presentation8.pdb
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.AssemblyInfo.cs
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.dll
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.pdb
+D:\Projects_C#\Presentation8\Task_Presentation8\Task_Presentation8\obj\Debug\netcoreapp3.1\Task_Presentation8.genruntimeconfig.cache
