@@ -12,33 +12,32 @@ namespace Task_Presentation8
         static void Main(string[] args)
         {
             
-            List<Person> staff = new List<Person>() ;
-            staff.Add(new Staff("\t\tTaras", 250));
-            staff.Add(new Staff("\t\tIhor", 2000));
-            staff.Add(new Staff("\t\tOleh", 2000));
-            staff.Add(new Staff("\t\tDasha", 250));
-            staff.Add(new Teacher("\t\tVlad", 400, "\tC#"));
-            staff.Add(new Teacher("\t\tVova", 450, "\tJava"));
-            staff.Add(new Teacher("\t\tMykola", 500, "\tRuby"));
-            staff.Add(new Developer("\tTania", 700, "\tMidle"));
-            staff.Add(new Developer("\tSeveryn", 750, "\tJunior"));
-            staff.Add(new Developer("\tAndrew", 750, "\tSenior"));
+            List<Person> persons = new List<Person>() ;
+            //persons.Add(new Staff("\t\tTaras", 250));
+            //persons.Add(new Staff("\t\tIhor", 2000));
+            //persons.Add(new Staff("\t\tOleh", 2000));
+            //persons.Add(new Staff("\t\tDasha", 250));
+            persons.Add(new Teacher(" \tVlad", 400, "\tC#"));
+            persons.Add(new Teacher(" \tVova", 450, "\tJava"));
+            persons.Add(new Teacher(" \tMykola", 500, "\tRuby"));
+            persons.Add(new Developer(" \tTania", 700, "\tMidle"));
+            persons.Add(new Developer(" \tSeveryn", 750, "\tJunior"));
+            persons.Add(new Developer(" \tAndrew", 750, "\tSenior"));
             
-            List<Staff> employees = new List<Staff>(); //Task 8.6???????
-
-
-
             
 
+
             
-            foreach (var s in staff)
+
+            
+            foreach (Person person in persons)
             {
-                s.Print();
+                person.Print();
             }
             Console.WriteLine("Enter randome Persone name");
             string personeName = Console.ReadLine();
             int count = 0;
-            foreach (var s in staff)
+            foreach (var s in persons)
             {
                 
                 if (s.Name.Contains(personeName))
@@ -47,7 +46,7 @@ namespace Task_Presentation8
                     s.Print();
                     break;
                 }
-                else if((staff.Count).Equals(count+1))
+                else if((persons.Count).Equals(count+1))
                 {
                     Console.WriteLine("This Person is not in the staff");
                 }
@@ -56,23 +55,28 @@ namespace Task_Presentation8
                     count++;
                 }
             }
-            staff.Sort();
+            persons.Sort();
             string pathSorted = @"D:\\Projects_C#\\Presentation8\\Task_Presentation8\\Task_Presentation8\\Sorted.txt";
             using (StreamWriter writer = new StreamWriter(pathSorted))
             {
-                foreach(var s in staff)
+                foreach(Person person in persons)
                 {
-                    writer.WriteLine(s.ToString());
+                    writer.WriteLine(person.Name);
+                    Console.WriteLine(person.Name);
                 }
                 writer.Close();
             }
 
-            foreach (var s in staff)
+            List<Staff> employees = new List<Staff>(); //Task 8.6???????
+            foreach (Person person in persons)
             {
-                employees.Add(new Staff(s.));
+                if (person is Staff)
+                {
+                    employees.Add(person as Staff);
+                }
             }
+            employees.Sort();
 
-            
         }
 
 
@@ -97,7 +101,7 @@ namespace Task_Presentation8
         }
 
 
-        public class Staff : Person
+        public class Staff : Person, IComparable<Staff>
         {
             private int salary;
             public virtual int Salary { get { return salary; } }
@@ -112,9 +116,10 @@ namespace Task_Presentation8
                 Console.WriteLine($"Person {Name} has salary {this.salary}");
             }
 
-
-
-            
+            public int CompareTo(Staff staff)
+            {
+                return this.salary.CompareTo(staff.salary);
+            }
         }
 
 
@@ -127,7 +132,7 @@ namespace Task_Presentation8
             {
                 this.subject = subject;
             }
-            public override int Salary { get { return base.alary; } }
+            //public override int Salary { get { return salary; } }
             public override string Name { get { return base.Name + " -Teacher"; } }
             public override void Print()
             {

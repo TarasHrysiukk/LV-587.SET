@@ -1,10 +1,6 @@
-Task_Presentation8.Program+Staff
-Task_Presentation8.Program+Staff
-Task_Presentation8.Program+Teacher
-Task_Presentation8.Program+Staff
-Task_Presentation8.Program+Staff
-Task_Presentation8.Program+Teacher
-Task_Presentation8.Program+Teacher
-Task_Presentation8.Program+Developer
-Task_Presentation8.Program+Developer
-Task_Presentation8.Program+Developer
+ 	Andrew -Staff -Developer
+ 	Mykola -Staff -Teacher
+ 	Severyn -Staff -Developer
+ 	Tania -Staff -Developer
+ 	Vlad -Staff -Teacher
+ 	Vova -Staff -Teacher
