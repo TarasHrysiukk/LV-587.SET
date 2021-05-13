@@ -1,0 +1,13 @@
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.exe
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.deps.json
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.runtimeconfig.json
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.runtimeconfig.dev.json
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.dll
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\bin\Debug\netcoreapp3.1\Task_Presentation9.pdb
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.csprojAssemblyReference.cache
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.AssemblyInfoInputs.cache
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.AssemblyInfo.cs
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.dll
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.pdb
+D:\Projects_C#\Presentation9\Task_Presentation9\Task_Presentation9\obj\Debug\netcoreapp3.1\Task_Presentation9.genruntimeconfig.cache
