@@ -32,7 +32,7 @@ Create a collection of animals and add some different animals and birds to it.
 
 namespace Individual_Task_V4
 {
-    public class Animal 
+    public class Animal : IComparable<Animal>
     {
         DateTime birthYear;
         //var date =  
@@ -73,9 +73,22 @@ namespace Individual_Task_V4
         {
             return DateTime.Now.Year - birthYear.Year;
         }
+
+        public virtual int CompareTo(Animal other)
+        {
+            if (other is Bird)
+            {
+                return -1;
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
     }
 
-    public class Bird : Animal, IComparable<Bird>
+    public class Bird : Animal, IComparable<Animal>
     {
 
         public string species;
@@ -128,13 +141,21 @@ namespace Individual_Task_V4
         {
             return DateTime.Now.Year - birthYear.Year;
         }
-        public int CompareTo(Bird bird)
+        public override int CompareTo(Animal other)
         {
-            return this.Species.CompareTo(bird.Species);
+            if(other is Bird)
+            {
+                return Species.CompareTo(((Bird)other).Species);
+            }
+            else
+            {
+                return 1;
+            }
+            
         }
     }
 
-    class Program : IComparable<Bird>
+    class Program 
     {
         static void Main(string[] args)
         {
@@ -161,16 +182,17 @@ namespace Individual_Task_V4
             //    sort.Output();                                            //Sort
             //}
 
-            //animals.Sort();                                               //Call Sort
+            animals.Sort();                                                 //Call Sort
+            Console.WriteLine();
             
-           // OutputList();                                                 //output after sort
+            OutputList();                                                 //output after sort
             void InputList()
             {
                 try
                 {
                     Animal inputAnimal;
                     Bird inputBird;
-                    for (int i = 0; i < 1; i++)
+                    for (int i = 0; i < 3; i++)
                     {
                         Console.WriteLine("You wanna enter: 1 - bird; 2 - another animal");
                         string youChoice = Console.ReadLine();
@@ -213,10 +235,10 @@ namespace Individual_Task_V4
             }
         }
 
-        public int CompareTo(Bird bird)
-        {
+        //public int CompareTo(Bird bird)
+        //{
             
-            return bird.CompareTo(bird);
-        }
+        //    return bird.CompareTo(bird);
+        //}
     }
 }
