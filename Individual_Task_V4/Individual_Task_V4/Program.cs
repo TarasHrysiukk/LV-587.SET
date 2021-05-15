@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 /// <summary>
@@ -28,15 +29,14 @@ Create a collection of animals and add some different animals and birds to it.
 -	 Write unit tests
 */
 /// </summary>
+
 namespace Individual_Task_V4
 {
     public class Animal 
     {
         DateTime birthYear;
-        //DateTime curentYear = DateTime.Now.Year;
-        string color;
-
-        public DateTime BirthYear { get; set; }
+        //var date =  
+        public DateTime BirthYear { get { return birthYear.Date; } set { birthYear = value; } }
         public virtual  string Color { get; set; }
 
         public Animal() { }
@@ -52,50 +52,44 @@ namespace Individual_Task_V4
 
         public virtual void Input()
         {
-            Console.WriteLine("Enter color of your animal: ");
-            string yourAnimalColor = Console.ReadLine();
             Console.WriteLine("Enter date of birth this animal");
             DateTime birthDateYourAnimal = Convert.ToDateTime(Console.ReadLine());
-            BirthYear = birthDateYourAnimal;
+            Console.WriteLine("Enter color of your animal: ");
+            string yourAnimalColor = Console.ReadLine();
+            BirthYear= birthDateYourAnimal.Date;
             Color = yourAnimalColor;
         }
 
-       
         public virtual void Output()
         {
             Console.WriteLine(ToString());
-            //Console.WriteLine(Voice());
         }
 
         public override string ToString()
         {
-            return $"{Color} animal was born in {BirthYear}, his age is {GetAge(BirthYear)}";
+            return $"{Color} animal was born in {BirthYear.ToString("dd/MM/yyyy")}, his age is {GetAge(BirthYear)}, he say - " + Voice();
         }
-        public int GetAge(DateTime birthYear)
+        public virtual int GetAge(DateTime birthYear)
         {
             return DateTime.Now.Year - birthYear.Year;
         }
-
-        
-
-
     }
 
     public class Bird : Animal, IComparable<Bird>
     {
- 
-        public string Species { get; set; }
+
+        public string species;
+        public string Species { get { return species; } set { species = value; } }
         public int EggsCount { get; set; }
         
-        public Bird()
-        {
-            
+        public Bird() { }
 
-        }
-        public Bird(string species, int eggsCount, DateTime birthYear, string color): base(birthYear,color)
+        public Bird(string species, int eggsCount, DateTime birthYear, string color): base(birthYear.Date, color)
         {
             Species = species;
             EggsCount = eggsCount;
+            base.Color = color;
+            base.BirthYear = birthYear;
            
         }
 
@@ -106,61 +100,77 @@ namespace Individual_Task_V4
 
         public override void Input()
         {
+            Console.WriteLine("Enter date of birth this Bird");
+            DateTime birthDateYourBird = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine("Enter color of your bird: ");
+            string yourBirdColor = Console.ReadLine();
             Console.WriteLine("Enter species of the bird");
-            string _species = Console.ReadLine();
+            string species = Console.ReadLine();
             Console.WriteLine("How many eggs this bird have?");
-            int _eggsCount = Convert.ToInt32(Console.ReadLine());
-            Species = _species;
-            EggsCount = _eggsCount;
+            int eggsCount = Convert.ToInt32(Console.ReadLine());
+            Species = species;
+            EggsCount = eggsCount;
+            base.BirthYear = birthDateYourBird;
+            base.Color = yourBirdColor;
         }
          
         public override void Output()
         {
-            Console.WriteLine(ToString());
-
+            Console.WriteLine(ToString());              
         }
         public override string ToString()
         {
 
-            return $"Bird species \"{Species}\" has {EggsCount} eggs" + Voice();
+            return $"{base.Color} {Species} was born in {base.BirthYear.ToString("dd/MM/yyyy")} has {EggsCount} eggs, his age is \"{GetAge(base.BirthYear)} y.o.\" he say - " + Voice();
         }
 
+        public override int GetAge(DateTime birthYear)
+        {
+            return DateTime.Now.Year - birthYear.Year;
+        }
         public int CompareTo(Bird bird)
         {
             return this.Species.CompareTo(bird.Species);
         }
-
     }
 
-
-    class Program
+    class Program : IComparable<Bird>
     {
         static void Main(string[] args)
         {
+            //List<Bird> animals = new List<Bird>();                        // Sort???
             List<Animal> animals = new List<Animal>();
             InputList();
             var adultAnimal = from i in animals
-                                              where (i.GetAge(i.BirthYear)) > 3
-                                              select i;
+                              where (i.GetAge(i.BirthYear)) > 3
+                              select i;
+            Console.WriteLine("Bird older than 3 years");
             foreach (var res in adultAnimal)
             {
-                if(res is Animal)
+                if (res is Bird)
                 {
-                    Console.WriteLine("Animals older than 3 years");
                     res.Output();
                 }
-                
             }
 
-            //animals.Sort();
+            //var sorted = animals.OrderBy(animal => animal.Species);       //Sort
+
+            //foreach(var sort in sorted)                                   //Sort               
+            //{
+
+            //    sort.Output();                                            //Sort
+            //}
+
+            //animals.Sort();                                               //Call Sort
+            
+           // OutputList();                                                 //output after sort
             void InputList()
             {
                 try
                 {
                     Animal inputAnimal;
                     Bird inputBird;
-                   // SpeciesOfBird speciesEnum;
-                    for (int i = 0; i < 3; i++)
+                    for (int i = 0; i < 1; i++)
                     {
                         Console.WriteLine("You wanna enter: 1 - bird; 2 - another animal");
                         string youChoice = Console.ReadLine();
@@ -168,46 +178,24 @@ namespace Individual_Task_V4
                         {
                             case "1":
                                 {
-                                    //must be input from bird
-                                    //Bird testc = new Bird();
-                                    //testc.Input();
-                                    Console.WriteLine("Enter species of the bird");
-                                    string _species = Console.ReadLine();
-                                    Console.WriteLine("How many eggs this bird have?");
-                                    int _eggsCount = Convert.ToInt32(Console.ReadLine());
-                                    var k = new DateTime(2020,01,01);
-                                    inputBird = new Bird(_species, _eggsCount,k ,"wsfd");
+                                    inputBird = new Bird();
+                                    inputBird.Input();
                                     animals.Add(inputBird);
-                                    Console.WriteLine($"{_species} have {_eggsCount}");
-                                    Console.WriteLine();
                                     break;
                                 }
 
                             case "2":
                                 {
-                                    //must be input from animal
-                                    Console.WriteLine("Enter color of your animal: ");
-                                    string yourAnimalColor = Console.ReadLine();
-                                    Console.WriteLine("Enter date of birth this animal");
-                                    DateTime birthDateYourAnimal = Convert.ToDateTime(Console.ReadLine());
-                                    inputAnimal = new Animal(birthDateYourAnimal, yourAnimalColor);
+                                    inputAnimal = new Animal();
+                                    inputAnimal.Input();
                                     animals.Add(inputAnimal);
-                                    Console.WriteLine($"{yourAnimalColor} animal was born in {birthDateYourAnimal}");
-                                    Console.WriteLine();
                                     break;
                                 }
                             default:
                                 throw new Exception($"Invalid  arguments, Must be 1 or 2, NOT - \"{youChoice}\"");
-                                break;
-
                         }
                     }
-
-
-                    foreach (Animal animal in animals)
-                    {
-                        animal.Output();
-                    }
+                    OutputList();
                     Console.WriteLine();
                 }
                 catch (Exception e)
@@ -216,15 +204,19 @@ namespace Individual_Task_V4
                 }
             }
 
+            void OutputList()
+            {
+                foreach (Animal animal in animals)
+                {
+                    animal.Output();
+                }
+            }
+        }
+
+        public int CompareTo(Bird bird)
+        {
+            
+            return bird.CompareTo(bird);
         }
     }
-    enum SpeciesOfBird
-    {
-        Sparrow,
-        Gogol,
-        Dove,
-        Falcon,
-        Eagle
-    }
-
 }
