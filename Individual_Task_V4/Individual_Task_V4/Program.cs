@@ -24,7 +24,7 @@ Create a collection of animals and add some different animals and birds to it.//
 -	 Output the data about birds older than 3 years                                 Done
 -	 Sort the data by Species                                                       Done
 -	 Output the collection to a file                                                Done
--	 Implement exception handling                                                    XXX
+-	 Implement exception handling                                                   Done
 -	 Serialize the collection to XML file                                            XXX
 -	 Deserialize it back                                                             XXX
 -	 Write unit tests                                                                XXX      
