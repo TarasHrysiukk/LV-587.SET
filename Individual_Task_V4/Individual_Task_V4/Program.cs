@@ -2,31 +2,32 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.IO;
 
 /// <summary>
 /* Variant 4
-Define a class Animal which contains:
--    Fields BirthYear, Color
--    Method Voice() that returns a string like “I am an animal!!!”
--    Constructor with parameters
--    Input() and output() methods for input / output from / to console
--    Getters and setters
--    Method GetAge() calculating the animals’s age in full years
--    Overridden ToString() method calling the Voice() method
-Define a descendant class Bird that has:
--    Additional fields Species, EggsCount 
--    Constructor with parameters 
--    Additional getters and setters
--    Overridden Voice() method
--    Overridden input() and output() methods
-Create a collection of animals and add some different animals and birds to it.              
--	 Output the data about birds older than 3 years
--	 Sort the data by Species
--	 Output the collection to a file
--	 Implement exception handling
--	 Serialize the collection to XML file
--	 Deserialize it back
--	 Write unit tests
+Define a class Animal which contains://///////////////////////////////////////////////////////////////
+-    Fields BirthYear, Color                                                        Done
+-    Method Voice() that returns a string like “I am an animal!!!”                  Done 
+-    Constructor with parameters                                                    Done
+-    Input() and output() methods for input / output from / to console              Done
+-    Getters and setters                                                            Done
+-    Method GetAge() calculating the animals’s age in full years                    Done
+-    Overridden ToString() method calling the Voice() method                        Done
+Define a descendant class Bird that has:///////////////////////////////////////////////////////////////                                       
+-    Additional fields Species, EggsCount                                           Done
+-    Constructor with parameters                                                    Done
+-    Additional getters and setters                                                 Done
+-    Overridden Voice() method                                                      Done
+-    Overridden input() and output() methods                                        Done
+Create a collection of animals and add some different animals and birds to it.////////////////////////
+-	 Output the data about birds older than 3 years                                 Done
+-	 Sort the data by Species                                                       Done
+-	 Output the collection to a file                                                Done
+-	 Implement exception handling                                                    XXX
+-	 Serialize the collection to XML file                                            XXX
+-	 Deserialize it back                                                             XXX
+-	 Write unit tests                                                                XXX      
 */
 /// </summary>
 
@@ -159,7 +160,6 @@ namespace Individual_Task_V4
     {
         static void Main(string[] args)
         {
-            //List<Bird> animals = new List<Bird>();                        // Sort???
             List<Animal> animals = new List<Animal>();
             InputList();
             var adultAnimal = from i in animals
@@ -174,18 +174,20 @@ namespace Individual_Task_V4
                 }
             }
 
-            //var sorted = animals.OrderBy(animal => animal.Species);       //Sort
-
-            //foreach(var sort in sorted)                                   //Sort               
-            //{
-
-            //    sort.Output();                                            //Sort
-            //}
 
             animals.Sort();                                                 //Call Sort
             Console.WriteLine();
             
             OutputList();                                                 //output after sort
+
+            string path = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\IndidvidualTaskV4.txt";
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                foreach(var animal in animals)
+                {
+                    writer.WriteLine(animal);
+                }
+            }
             void InputList()
             {
                 try
@@ -234,11 +236,5 @@ namespace Individual_Task_V4
                 }
             }
         }
-
-        //public int CompareTo(Bird bird)
-        //{
-            
-        //    return bird.CompareTo(bird);
-        //}
     }
 }
