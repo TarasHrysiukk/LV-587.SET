@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfAnimal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Animal>
+    <BirthYear>1999-09-09T00:00:00</BirthYear>
+    <Color>jjj</Color>
+  </Animal>
+  <Animal xsi:type="Bird">
+    <BirthYear>2020-02-02T00:00:00</BirthYear>
+    <Color>greem</Color>
+    <species>sparrow</species>
+    <Species>sparrow</Species>
+    <EggsCount>400</EggsCount>
+  </Animal>
+</ArrayOfAnimal>

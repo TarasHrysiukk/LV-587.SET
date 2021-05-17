@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
+using System.Xml.Serialization;
 using System.Linq;
 using System.IO;
 
@@ -33,10 +33,10 @@ Create a collection of animals and add some different animals and birds to it.//
 
 namespace Individual_Task_V4
 {
+    [Serializable]
     public class Animal : IComparable<Animal>
     {
-        DateTime birthYear;
-        //var date =  
+        DateTime birthYear;   
         public DateTime BirthYear { get { return birthYear.Date; } set { birthYear = value; } }
         public virtual  string Color { get; set; }
 
@@ -89,6 +89,7 @@ namespace Individual_Task_V4
         }
     }
 
+    [Serializable]
     public class Bird : Animal, IComparable<Animal>
     {
 
@@ -104,7 +105,6 @@ namespace Individual_Task_V4
             EggsCount = eggsCount;
             base.Color = color;
             base.BirthYear = birthYear;
-           
         }
 
         public override string Voice()
@@ -179,7 +179,8 @@ namespace Individual_Task_V4
             Console.WriteLine();
             
             OutputList();                                                 //output after sort
-
+            string pathXML = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\animals.xml";
+           
             string path = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\IndidvidualTaskV4.txt";
             using (StreamWriter writer = new StreamWriter(path))
             {
@@ -188,13 +189,25 @@ namespace Individual_Task_V4
                     writer.WriteLine(animal);
                 }
             }
+
+            //Serialization
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Animal>), new Type[] { typeof(Animal), typeof(Bird) });
+            using (FileStream fs = new FileStream(pathXML, FileMode.OpenOrCreate))
+            {
+                xmlSerializer.Serialize(fs, animals);
+            } 
+            //Deserialization
+            using(FileStream fs = new FileStream(pathXML, FileMode.OpenOrCreate))
+            {
+                List<Animal> newAnimal = (List<Animal>)xmlSerializer.Deserialize(fs);
+            }
             void InputList()
             {
                 try
                 {
                     Animal inputAnimal;
                     Bird inputBird;
-                    for (int i = 0; i < 3; i++)
+                    for (int i = 0; i < 2; i++)
                     {
                         Console.WriteLine("You wanna enter: 1 - bird; 2 - another animal");
                         string youChoice = Console.ReadLine();
