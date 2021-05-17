@@ -4,6 +4,7 @@ using System.Xml.Serialization;
 using System.Linq;
 using System.IO;
 
+
 /// <summary>
 /* Variant 4
 Define a class Animal which contains://///////////////////////////////////////////////////////////////
@@ -25,9 +26,9 @@ Create a collection of animals and add some different animals and birds to it.//
 -	 Sort the data by Species                                                       Done
 -	 Output the collection to a file                                                Done
 -	 Implement exception handling                                                   Done
--	 Serialize the collection to XML file                                            XXX
--	 Deserialize it back                                                             XXX
--	 Write unit tests                                                                XXX      
+-	 Serialize the collection to XML file                                           Done
+-	 Deserialize it back                                                            Done
+-	 Write unit tests                                                               Done     
 */
 /// </summary>
 
@@ -152,11 +153,10 @@ namespace Individual_Task_V4
             {
                 return 1;
             }
-            
         }
     }
 
-    class Program 
+    public class Program 
     {
         static void Main(string[] args)
         {
@@ -174,22 +174,14 @@ namespace Individual_Task_V4
                 }
             }
 
-
             animals.Sort();                                                 //Call Sort
             Console.WriteLine();
             
-            OutputList();                                                 //output after sort
+            OutputList();                                                   //output after sort
+            WriteinFile(animals);                                                  //write in file
+                                                                            
             string pathXML = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\animals.xml";
-           
-            string path = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\IndidvidualTaskV4.txt";
-            using (StreamWriter writer = new StreamWriter(path))
-            {
-                foreach(var animal in animals)
-                {
-                    writer.WriteLine(animal);
-                }
-            }
-
+   
             //Serialization
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Animal>), new Type[] { typeof(Animal), typeof(Bird) });
             using (FileStream fs = new FileStream(pathXML, FileMode.OpenOrCreate))
@@ -249,5 +241,17 @@ namespace Individual_Task_V4
                 }
             }
         }
+        public static void WriteinFile(List<Animal> animals)
+        {
+            string path = @"D:\Projects_C#\Individual_Task_V4\Individual_Task_V4\IndidvidualTaskV4.txt";
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                foreach (var animal in animals)
+                {
+                    writer.WriteLine(animal);
+                }
+            }
+        }
     }
+    
 }
