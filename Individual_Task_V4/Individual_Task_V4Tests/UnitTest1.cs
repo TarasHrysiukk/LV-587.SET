@@ -10,7 +10,7 @@ namespace Individual_Task_V4Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToString1()
         {
             //arrange
             Animal animal = new Animal(new DateTime(2020,02,02).Date,"green");
@@ -21,7 +21,7 @@ namespace Individual_Task_V4Tests
         }
 
         [TestMethod]
-        public void TestMethod2()
+        public void TestInputInFile()
         {
             List<Animal> ff = new List<Animal>();
             ff.Add(new Animal(new DateTime(2020, 02, 02).Date, "green"));
@@ -36,6 +36,16 @@ namespace Individual_Task_V4Tests
                  actualdRes =  reader.ReadLine();
             }
             Assert.AreEqual(expectedRes, actualdRes);
+        }
+
+        [TestMethod]
+        public void TestGetAge()
+        {
+            Animal animal = new Animal(new DateTime(2020, 02, 02).Date, "green");
+            DateTime bithYear = new DateTime(2020, 02, 02).Date;
+            int expected = 1;
+            int actual = animal.GetAge(bithYear);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
