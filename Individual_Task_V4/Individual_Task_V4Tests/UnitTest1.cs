@@ -10,7 +10,7 @@ namespace Individual_Task_V4Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestToString1()
+        public void ToStringTest()
         {
             //arrange
             Animal animal = new Animal(new DateTime(2020,02,02).Date,"green");
@@ -21,7 +21,7 @@ namespace Individual_Task_V4Tests
         }
 
         [TestMethod]
-        public void TestInputInFile()
+        public void InputInFileTest()
         {
             List<Animal> ff = new List<Animal>();
             ff.Add(new Animal(new DateTime(2020, 02, 02).Date, "green"));
@@ -39,7 +39,7 @@ namespace Individual_Task_V4Tests
         }
 
         [TestMethod]
-        public void TestGetAge()
+        public void GetAgeTest()
         {
             Animal animal = new Animal(new DateTime(2020, 02, 02).Date, "green");
             DateTime bithYear = new DateTime(2020, 02, 02).Date;

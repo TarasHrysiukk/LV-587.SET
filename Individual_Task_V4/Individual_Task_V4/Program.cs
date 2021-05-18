@@ -64,7 +64,7 @@ namespace Individual_Task_V4
 
         public virtual void Output()
         {
-            Console.WriteLine(ToString());
+            Console.WriteLine(this);
         }
 
         public override string ToString()
@@ -131,7 +131,7 @@ namespace Individual_Task_V4
          
         public override void Output()
         {
-            Console.WriteLine(ToString());              
+            Console.WriteLine(this);              
         }
         public override string ToString()
         {
@@ -162,15 +162,25 @@ namespace Individual_Task_V4
         {
             List<Animal> animals = new List<Animal>();
             InputList();
+            int countTry = 0;
             var adultAnimal = from i in animals
                               where (i.GetAge(i.BirthYear)) > 3
                               select i;
-            Console.WriteLine("Bird older than 3 years");
-            foreach (var res in adultAnimal)
+           
+            if(adultAnimal.Count() < 1)
             {
-                if (res is Bird)
+                Console.WriteLine("No one bird older 3 yeats");
+            }
+            else
+            {
+                Console.WriteLine("Bird older than 3 years");
+                foreach (var res in adultAnimal)
                 {
-                    res.Output();
+                    countTry++;
+                    if (res is Bird)
+                    {
+                        res.Output();
+                    }
                 }
             }
 
