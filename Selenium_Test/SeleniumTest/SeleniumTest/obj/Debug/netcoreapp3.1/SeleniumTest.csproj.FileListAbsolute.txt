@@ -1,0 +1,16 @@
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.exe
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.deps.json
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.runtimeconfig.json
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.runtimeconfig.dev.json
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.dll
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\SeleniumTest.pdb
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\WebDriver.dll
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csprojAssemblyReference.cache
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.AssemblyInfoInputs.cache
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.AssemblyInfo.cs
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csproj.CoreCompileInputs.cache
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.csproj.CopyComplete
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.dll
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.pdb
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\obj\Debug\netcoreapp3.1\SeleniumTest.genruntimeconfig.cache
+D:\Projects_C#\Selenium_Test\SeleniumTest\SeleniumTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
